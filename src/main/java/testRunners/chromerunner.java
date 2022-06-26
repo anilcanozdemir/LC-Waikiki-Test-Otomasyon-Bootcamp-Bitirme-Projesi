@@ -15,7 +15,7 @@ import org.testng.annotations.*;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
 )
-public class chromeRunner extends AbstractTestNGCucumberTests {
+public class chromerunner extends AbstractTestNGCucumberTests {
 
 
     @BeforeSuite

@@ -6,6 +6,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
 
 import java.util.Properties;
 
@@ -15,14 +16,14 @@ public class Hooks {
     Properties properties;
     @Before
     public void before() {
-        String browser=null;
-        try {
-             browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
+        String browser;
+        try{ browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");}
+        catch (Exception e)
+        {
+            browser="Android";
         }
-        catch (Exception ignored){}
+
         properties = ConfigReader.initialize_Properties();
-        if(browser==null)
-            browser="Chrome";
         driver = DriverFactory.initializeDriver(browser);
     }
 
@@ -36,6 +37,6 @@ public class Hooks {
 
     @After
     public void after() {
-        driver.quit();
+      //  driver.quit();
     }
 }

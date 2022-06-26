@@ -5,39 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11c03de-c609-479c-972c-aeb4ef0bb4b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReport" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/cartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/categoriesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/navigationBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/profilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/searchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/tutorialPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/androidReports/androidReports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/androidReports/androidReports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DIRECTIONS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidFeatures/tutorialPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/checkOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/productPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/cartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/categoriesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/checkOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/homePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/productPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/profilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/searchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/tutorialPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReport" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/SparkReport/PDF/Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/SparkReport/PDF/Report.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/androidFeatures/Chrome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeFeatures/Chrome.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeFeatures/Chrome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromePages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromePages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/chromerunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/cartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/categoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/categoriesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/navigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/navigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/profilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/searchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/tutorialPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/tutorialPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,47 +72,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/resources/testSuites",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/java/android/androidFeatures&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\resources\testSuites" />
       <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\java\android\androidFeatures" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\java\android\androidStepDefinitions" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\resources\testSuites" />
       <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\java" />
       <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyonBootcampBitirmeProjesi\src\test\java\androidPages" />
-      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="android.androidStepDefinitions" />
       <recent name="android.androidPages" />
       <recent name="testRunners" />
       <recent name="StepDefinitions" />
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml">
-    <configuration name="Scenario: Customer search,select,add to cart and proceeds to Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/resources/testSuites/Android.xml">
+    <configuration name="Feature: tutorialPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
-      <option name="GLUE" value="util StepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/android/androidFeatures/tutorialPage.feature" />
+      <option name="GLUE" value="util android.androidStepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="LCWaikikiTestOtomasyon" />
-      <option name="NAME_FILTER" value="^Customer search\,select\,add to cart and proceeds to Checkout$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Customer search\,select\,add to cart and proceeds to Checkout$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Customer search,select,add to cart and proceeds to Checkout" />
+      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: tutorialPage" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Main Scenario WithOutSingUp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check Tutorial Page Components" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
-      <option name="GLUE" value="StepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/android/androidFeatures/tutorialPage.feature" />
+      <option name="GLUE" value="util android.androidStepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="LCWaikikiTestOtomasyon" />
-      <option name="NAME_FILTER" value="^Main Scenario WithOutSingUp$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Main Scenario WithOutSingUp$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Main Scenario WithOutSingUp" />
+      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+      <option name="NAME_FILTER" value="^Check Tutorial Page Components$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check Tutorial Page Components$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check Tutorial Page Components" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,10 +146,10 @@
     </configuration>
     <configuration name="Scenario: Successful Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
-      <option name="GLUE" value="StepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" />
+      <option name="GLUE" value="util android.androidStepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="LCWaikikiTestOtomasyon" />
+      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
       <option name="NAME_FILTER" value="^Successful Login$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Login$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Successful Login" />
@@ -157,9 +164,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LCWaikikiTestOtomasyon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuites/Parallel.xml" />
+    <configuration name="C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/resources/testSuites/Android.xml" type="TestNG" nameIsGenerated="true">
+      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -167,17 +174,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chromeRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LCWaikikiTestOtomasyon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testRunners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testRunners" />
-      <option name="MAIN_CLASS_NAME" value="testRunners.chromeRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/resources/testSuites/Chrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -186,10 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml" />
-        <item itemvalue="Cucumber Java.Scenario: Main Scenario WithOutSingUp" />
-        <item itemvalue="Cucumber Java.Scenario: Customer search,select,add to cart and proceeds to Checkout" />
-        <item itemvalue="TestNG.chromeRunner" />
+        <item itemvalue="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyonBootcampBitirmeProjesi/src/test/resources/testSuites/Chrome.xml" />
+        <item itemvalue="Cucumber Java.Feature: tutorialPage" />
+        <item itemvalue="Cucumber Java.Scenario: Check Tutorial Page Components" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login" />
       </list>
     </recent_temporary>

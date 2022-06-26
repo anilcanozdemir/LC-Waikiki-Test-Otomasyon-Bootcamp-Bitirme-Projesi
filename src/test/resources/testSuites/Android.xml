@@ -2,7 +2,7 @@
 
 <suite name="LCWaikiki SUITE" verbose="1" >
     <parameter name="browser"  value="Android"/>
-    <test name="LCWAIKIKI TEST OTOMASYON">
+    <test name="LCWAIKIKI TEST OTOMASYON-ANDROID">
         <classes>
             <class name="testRunners.androidRunner"/>
         </classes>
