@@ -4,32 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11077f89-91b1-453e-b2c1-122099a964e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/white.xml" afterDir="false" />
+    <list default="true" id="a11c03de-c609-479c-972c-aeb4ef0bb4b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/SparkReport/PDF/Report.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/SparkReport/Spark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Shopping.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/androidFeatures/Chrome.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeFeatures/Chrome.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/CheckOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromePages/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/CheckOutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chromeStepDefinitions/SignUpPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/report/spark-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Parallel.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,48 +64,53 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Aen30Qm7BAdWagjFQcEteuvSHP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2Aybe1jKcjT6mqxth7zwFDFlwTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/Documents/GitHub/LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\white\Documents\GitHub\LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi\src\test\resources" />
-      <recent name="C:\Users\white\Documents\GitHub\LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi\src\test\java\Pages" />
-      <recent name="C:\Users\white\Documents\GitHub\LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi\src\test\java\Features" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\test\java" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\test\resources" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\main\java\util" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\white\Documents\GitHub" />
-      <recent name="C:\Users\white\Documents\GitHub\LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi\src\test" />
+      <recent name="C:\Users\white\Documents\GitHub\LCWaikikiTestOtomasyon\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testRunners" />
       <recent name="StepDefinitions" />
-      <recent name="Pages" />
+      <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.runner">
-    <configuration name="Scenario: Selenium Denemesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml">
+    <configuration name="Scenario: Customer search,select,add to cart and proceeds to Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Shopping.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
       <option name="GLUE" value="util StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
-      <option name="NAME_FILTER" value="^Selenium Denemesi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Selenium Denemesi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Selenium Denemesi" />
+      <module name="LCWaikikiTestOtomasyon" />
+      <option name="NAME_FILTER" value="^Customer search\,select\,add to cart and proceeds to Checkout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Customer search\,select\,add to cart and proceeds to Checkout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Customer search,select,add to cart and proceeds to Checkout" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,21 +122,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+    <configuration name="Scenario: Main Scenario WithOutSingUp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="LCWaikikiTestOtomasyon" />
+      <option name="NAME_FILTER" value="^Main Scenario WithOutSingUp$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Main Scenario WithOutSingUp$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Main Scenario WithOutSingUp" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
-      <option name="filePath" />
+    <configuration name="Scenario: Successful Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Chrome.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="LCWaikikiTestOtomasyon" />
+      <option name="NAME_FILTER" value="^Successful Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/white/Documents/GitHub/LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi/src/test/resources/testSuites/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+    <configuration name="C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LCWaikikiTestOtomasyon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuites/Parallel.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -125,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LCWaikikiTestOtomasyonBootcampBitirmeProjesi" />
+    <configuration name="chromeRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LCWaikikiTestOtomasyon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testRunners.*" />
@@ -134,7 +181,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testRunners" />
-      <option name="MAIN_CLASS_NAME" value="testRunners.runner" />
+      <option name="MAIN_CLASS_NAME" value="testRunners.chromeRunner" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -144,20 +191,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.runner" />
-        <item itemvalue="Cucumber Java.Scenario: Selenium Denemesi" />
-        <item itemvalue="TestNG.C:/Users/white/Documents/GitHub/LC Waikiki Test Otomasyon Bootcamp Bitirme Projesi/src/test/resources/testSuites/Parallel.xml" />
+        <item itemvalue="TestNG.C:/Users/white/Documents/GitHub/LCWaikikiTestOtomasyon/src/test/resources/testSuites/Parallel.xml" />
+        <item itemvalue="Cucumber Java.Scenario: Main Scenario WithOutSingUp" />
+        <item itemvalue="Cucumber Java.Scenario: Customer search,select,add to cart and proceeds to Checkout" />
+        <item itemvalue="TestNG.chromeRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Successful Login" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11077f89-91b1-453e-b2c1-122099a964e1" name="Changes" comment="" />
-      <created>1655378715942</created>
+      <changelist id="a11c03de-c609-479c-972c-aeb4ef0bb4b3" name="Changes" comment="" />
+      <created>1655984863828</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655378715942</updated>
+      <updated>1655984863828</updated>
     </task>
     <servers />
   </component>
@@ -171,5 +220,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
