@@ -1,4 +1,4 @@
-package chromePages;
+package chrome.chromePages;
 
 import org.openqa.selenium.By;
 

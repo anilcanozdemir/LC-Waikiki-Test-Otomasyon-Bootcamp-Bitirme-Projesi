@@ -1,9 +1,9 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 
 import io.cucumber.java.en.When;
 
 public class LoginPage {
-    chromePages.LoginPage loginPage = new chromePages.LoginPage();
+    chrome.chromePages.LoginPage loginPage = new chrome.chromePages.LoginPage();
 
     @When("Customer login with E-mail {string} and Password {string}")
     public void customerLoginWithEMailAndPassword(String Email, String Password)  {

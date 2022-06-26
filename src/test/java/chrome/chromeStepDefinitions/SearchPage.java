@@ -1,4 +1,4 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -6,7 +6,7 @@ import io.cucumber.java.en.Then;
 
 
 public class SearchPage {
-    chromePages.SearchPage searchPage = new chromePages.SearchPage();
+    chrome.chromePages.SearchPage searchPage = new chrome.chromePages.SearchPage();
 
     @And("Filter Color to be {string}")
     public void filterToBe(String value) {

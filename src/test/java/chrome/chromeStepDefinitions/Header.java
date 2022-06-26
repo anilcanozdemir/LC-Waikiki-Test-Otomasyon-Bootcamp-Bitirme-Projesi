@@ -1,4 +1,4 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 
 public class Header {
 
-chromePages.Header header=new chromePages.Header();
+chrome.chromePages.Header header=new chrome.chromePages.Header();
 
     @When("Select Category as {string} -- {string} -- {string}")
     public void selectCategoryAsMainCategoryCategorySubCategory(String mainCategory, String category,String subCategory) {

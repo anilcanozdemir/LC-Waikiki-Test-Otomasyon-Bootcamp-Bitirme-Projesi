@@ -1,4 +1,4 @@
-@LCWaikiki @Android
+@LCWaikiki @Chrome
 Feature: LCWAIKIKI TEST OTOMASYON
   Uçtan uca ödeme ekranına kadar Selenium’da java dili ile chrome browser kullanarak
   test otomasyon ödevi yapılacak.
