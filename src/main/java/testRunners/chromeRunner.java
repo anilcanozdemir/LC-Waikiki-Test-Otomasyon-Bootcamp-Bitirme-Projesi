@@ -6,12 +6,12 @@ import org.testng.annotations.*;
 
 
 @CucumberOptions(
-        features = {"src/test/java/chromeFeatures"},
-        glue = {"chromeStepDefinitions", "util"},
+        features = {"src/test/java/chrome/chromeFeatures"},
+        glue = {"chrome/chromeStepDefinitions", "util"},
         tags = "@Main and @WithOutSingUp",
         plugin = {
-                "summary", "pretty", "html:Reports/CucumberReport/chromeReports.html",
-                "json:Reports/CucumberReport/chromeReport",
+                "summary", "pretty", "html:Reports/CucumberReport/chromeReports/chromeReports.html",
+                "json:Reports/CucumberReport/chromeReports/chromeReport",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
 )
