@@ -1,11 +1,11 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 
 
 public class HomePage {
-    chromePages.HomePage homePage=new chromePages.HomePage();
+    chrome.chromePages.HomePage homePage=new chrome.chromePages.HomePage();
 
     @Given("Customer is on HomePage")
     public void customerIsonHomePage() {

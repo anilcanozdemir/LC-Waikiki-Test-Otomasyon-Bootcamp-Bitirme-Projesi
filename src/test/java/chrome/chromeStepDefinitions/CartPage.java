@@ -1,11 +1,11 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CartPage {
 
-    chromePages.CartPage cartPage = new chromePages.CartPage();
+    chrome.chromePages.CartPage cartPage = new chrome.chromePages.CartPage();
 
     @When("Proceed to CheckOutPage")
     public void proceedToCheckOutPage() {

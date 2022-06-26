@@ -1,11 +1,11 @@
-package chromeStepDefinitions;
+package chrome.chromeStepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
 
 public class ProductPage {
-    chromePages.ProductPage productPage = new chromePages.ProductPage();
+    chrome.chromePages.ProductPage productPage = new chrome.chromePages.ProductPage();
 
     @And("Choose Size Option {string}")
     public void chooseSizeOption(String size) {
