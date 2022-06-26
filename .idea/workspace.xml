@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11c03de-c609-479c-972c-aeb4ef0bb4b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/androidReports/androidReports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/CucumberReport/androidReports/androidReports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/DIRECTIONS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidFeatures/tutorialPage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/checkOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/productPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/cartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/categoriesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/checkOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/productPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/profilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/searchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/androidStepDefinitions/tutorialPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReport" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/chromeReports/chromeReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/SparkReport/PDF/Report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/SparkReport/PDF/Report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/chromerunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidFeatures/Android.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/cartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/categoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/categoriesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/navigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/navigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/profilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/profilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/searchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/androidPages/tutorialPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/android/androidPages/tutorialPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/chromeStepDefinitions/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
