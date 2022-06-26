@@ -10,20 +10,19 @@ import org.testng.Reporter;
 import java.util.Properties;
 
 public class Hooks {
+
     WebDriver driver;
     Properties properties;
-    String browser;
-
     @Before
     public void before() {
+        String browser=null;
         try {
              browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
         }
-        catch (Exception e)
-        {
-            browser="Chrome";
-        }
+        catch (Exception ignored){}
         properties = ConfigReader.initialize_Properties();
+        if(browser==null)
+            browser="Chrome";
         driver = DriverFactory.initializeDriver(browser);
     }
 
