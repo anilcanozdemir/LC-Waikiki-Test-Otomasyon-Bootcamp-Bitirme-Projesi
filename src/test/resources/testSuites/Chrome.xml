@@ -2,9 +2,9 @@
 
 <suite name="LCWaikiki SUITE" verbose="1" >
     <parameter name="browser"  value="Chrome"/>
-    <test name="LCWAIKIKI TEST OTOMASYON">
+    <test name="LCWAIKIKI TEST OTOMASYON-CHROME">
         <classes>
-            <class name="testRunners.chromeRunner"/>
+            <class name="testRunners.chromerunner"/>
         </classes>
     </test>
 </suite>

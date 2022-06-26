@@ -9,7 +9,7 @@ public class SearchPage {
     chrome.chromePages.SearchPage searchPage = new chrome.chromePages.SearchPage();
 
     @And("Filter Color to be {string}")
-    public void filterToBe(String value) {
+    public void filterColorToBe(String value) {
         searchPage.filterByColor(value);
 
     }

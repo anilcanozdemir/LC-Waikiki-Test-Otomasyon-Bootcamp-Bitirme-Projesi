@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 public class DriverFactory {
     static WebDriver driver;
     static Properties properties;
-
+    static DesiredCapabilities capabilities;
     public static WebDriver initializeDriver(String browser) {
+        if(browser==null)
+            browser="Android";
         properties = ConfigReader.getProperties();
-
-        if (browser == null)
-            browser = "Chrome";
+        capabilities = new DesiredCapabilities();
         if (browser.equals("Chrome")) {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
@@ -42,7 +42,6 @@ public class DriverFactory {
 
             }
         } else if (browser.equals("Android")) {
-            DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("udid", "emulator-5554");
             capabilities.setCapability("appPackage", "com.lcwaikiki.android");
@@ -64,8 +63,12 @@ public class DriverFactory {
     }
 
     public static WebDriver getDriver() {
-        if (driver == null)
-            return initializeDriver(null);
         return driver;
+    }
+
+    public static WebDriver getDriver(String browser) {
+        if(driver==null)
+           return initializeDriver(browser);
+     return driver;
     }
 }

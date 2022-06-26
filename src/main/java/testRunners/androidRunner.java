@@ -1,12 +1,14 @@
 package testRunners;
 
+import io.appium.java_client.AppiumDriver;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.*;
+import util.DriverFactory;
 
 
 @CucumberOptions(
-        features = {"src/test/java/androidFeatures"},
+        features = {"src/test/java/android/androidFeatures"},
         glue = {"android/androidStepDefinitions", "util"},
         tags = "@Main and @WithOutSingUp",
         plugin = {
