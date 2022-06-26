@@ -7,11 +7,11 @@ import org.testng.annotations.*;
 
 @CucumberOptions(
         features = {"src/test/java/androidFeatures"},
-        glue = {"androidStepDefinitions", "util"},
+        glue = {"android/androidStepDefinitions", "util"},
         tags = "@Main and @WithOutSingUp",
         plugin = {
-                "summary", "pretty", "html:Reports/CucumberReport/androidReports.html",
-                "json:Reports/CucumberReport/androidReport",
+                "summary", "pretty", "html:Reports/CucumberReport/androidReports/androidReports.html",
+                "json:Reports/CucumberReport/androidReports/androidReports",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
 )
