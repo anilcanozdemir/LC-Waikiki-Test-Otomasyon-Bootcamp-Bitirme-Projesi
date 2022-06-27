@@ -48,8 +48,8 @@ After opening it as a Maven Project, It is recommended to run from .xml files wh
 However, it has been observed that runs can be made from .feature files with minor changes in the util/DriverFactory.java and util/Hooks.java sections.
 
 U can also change runner classes and their tag from src/main/java/testRunners.
-
-
+IT IS RECCOMENDED TO RUN FROM .XML FILES SINCE IT CAN CAUSE SOME ISSUES
+src/test/resources/testSuites/
 
 ### SIGN IN TEST CASES
 
