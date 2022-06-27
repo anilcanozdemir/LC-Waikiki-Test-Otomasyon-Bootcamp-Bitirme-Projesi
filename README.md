@@ -48,3 +48,16 @@ After opening it as a Maven Project, It is recommended to run from .xml files wh
 However, it has been observed that runs can be made from .feature files with minor changes in the util/DriverFactory.java and util/Hooks.java sections.
 
 U can also change runner classes and their tag from src/main/java/testRunners.
+
+
+
+### SIGN IN TEST CASES
+
+Örneğin Yeni bir müşteri adayı ,alışveriş sitemize login olmak istiyor.
+a) Üyelik formunu başarılı bir şekilde doldurup,üyelik kaydının oluşturulması senaryosu
+oluşturulacak.
+b) Üyelik formunu başarısız bir şekilde doldurup (zorunlu alanların boş bırakılması yada
+text alanına geçersiz giriş yapılması v.b) üyelik kaydının oluşturulması senaryosu
+oluşturulacak.
+
+CAN BE FOUND AT LC WAIKIKI TEST CASES.xlsx
